@@ -29,7 +29,7 @@ struct Welcome: View {
                 ),
                 OnboardingInformationView.Content(
                     icon: {
-                        Image(systemName: "shippingbox.fill")
+                        Image(systemName: "applewatch")
                             .accessibilityHidden(true)
                     },
                     title: "WELCOME_AREA2_TITLE",
@@ -37,7 +37,7 @@ struct Welcome: View {
                 ),
                 OnboardingInformationView.Content(
                     icon: {
-                        Image(systemName: "list.bullet.clipboard.fill")
+                        Image(systemName: "heart.circle")
                             .accessibilityHidden(true)
                     },
                     title: "WELCOME_AREA3_TITLE",

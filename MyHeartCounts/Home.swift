@@ -31,7 +31,7 @@ struct HomeView: View {
             Contacts(presentingAccount: $presentingAccount)
                 .tag(Tabs.contact)
                 .tabItem {
-                    Label("CONTACTS_TAB_TITLE", systemImage: "person.fill")
+                    Label("CONTACTS_TAB_TITLE", systemImage: "phone")
                 }
         }
             .sheet(isPresented: $presentingAccount) {

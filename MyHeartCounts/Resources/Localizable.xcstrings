@@ -36,7 +36,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The MyHeartCounts demonstrates the usage of the Firebase Account Module."
+            "value" : "Log In to the MyHeartCounts Study"
           }
         }
       }
@@ -119,7 +119,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This onboarding step allows you to customize the onboarding flow to explain how the application uses the HealhtKit data and allows a user to cusomize the selection."
+            "value" : "The data will be used to understand how your activity is related to your condition."
           }
         }
       }
@@ -129,7 +129,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi can access data from HealthKit using the HealthKitDataSource module."
+            "value" : "The MyHeartCounts app will collect activity data from your phone and/or watch while you are enrolled in the study."
           }
         }
       }
@@ -150,7 +150,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The onboarding module allows you to build an onboarding flow like this one."
+            "value" : "This application will collect activity and sleep data to track your health."
           }
         }
       }
@@ -160,7 +160,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Onboarding"
+            "value" : "Health Data Collection"
           }
         }
       }
@@ -170,7 +170,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The application uses HL7 FHIR to provide a common standard to encode data gathered by the application."
+            "value" : "This application will provide surveys that you can take on a regular basis to track your heart health."
           }
         }
       }
@@ -180,7 +180,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HL7 FHIR"
+            "value" : "Surveys"
           }
         }
       }
@@ -190,7 +190,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The contact module allows you to display contact information in your application."
+            "value" : "This application contains an AI-based health coach to help you stay healthy."
           }
         }
       }
@@ -200,7 +200,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Contact"
+            "value" : "Coach"
           }
         }
       }
@@ -210,7 +210,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The HealthKit data source module allows you to fetch data from HealthKit and e.g. transform it to FHIR resources."
+            "value" : "This application will provide you information you can use to learn about heart health."
           }
         }
       }
@@ -220,7 +220,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HealthKit Data Source"
+            "value" : "Resources"
           }
         }
       }
@@ -251,7 +251,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Interesting Modules"
+            "value" : "About the Study"
           }
         }
       }
@@ -291,7 +291,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The Spezi Scheduler module enables to send out local notifications when a new event of a task is scheduled."
+            "value" : "The MyHeartCounts app will send you notifications to remind you to perform tasks."
           }
         }
       }
@@ -301,7 +301,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi Scheduler Notifications."
+            "value" : "MyHeartCounts Notifications"
           }
         }
       }
@@ -322,7 +322,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Activities"
           }
         }
       }
@@ -333,7 +333,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Activities"
           }
         }
       }
@@ -373,7 +373,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please fill out the Social Support Questionnaire every day."
+            "value" : "Please fill out the Daily Check-In survey every day."
           }
         }
       }
@@ -383,7 +383,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Social Support Questionnaire"
+            "value" : "Daily Check-In"
           }
         }
       }
@@ -393,7 +393,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The Spezi Framework builds the foundation of this application."
+            "value" : "We are asking you to join in a global study of cardiovascular health."
           }
         }
       }
@@ -403,7 +403,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The Spezi Framework"
+            "value" : "Join the Study"
           }
         }
       }
@@ -413,7 +413,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi uses the Swift Package Manager to import it as a dependency."
+            "value" : "We make it easy to “donate” data about your physical activity and sleep, and assess your fitness and risk factors for a better heart."
           }
         }
       }
@@ -423,7 +423,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Swift Package Manager"
+            "value" : "Donate Your Data"
           }
         }
       }
@@ -433,7 +433,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi offers several modules including HealthKit integration, questionnaires, and more ..."
+            "value" : "With your help we can make your heart count in the fight to stop heart disease and stroke."
           }
         }
       }
@@ -443,7 +443,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi Modules"
+            "value" : "Protect Your Heart"
           }
         }
       }
@@ -463,7 +463,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This application demonstrates several Spezi features & modules."
+            "value" : "Welcome to the MyHeart Counts research study!"
           }
         }
       }
@@ -474,7 +474,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spezi\nMyHeartCounts"
+            "value" : "MyHeartCounts"
           }
         }
       }

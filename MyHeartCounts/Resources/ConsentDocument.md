@@ -1,1 +1,1 @@
-Spezi can render consent documents in the markdown format: This is a *markdown* **example**.
+This is a placeholder for the consent document for the **MyHeartCounts** study.
