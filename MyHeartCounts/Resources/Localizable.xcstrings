@@ -322,7 +322,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Activities"
           }
         }
       }
@@ -333,7 +333,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Activities"
           }
         }
       }
@@ -373,7 +373,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please fill out the Social Support Questionnaire every day."
+            "value" : "Please fill out the Daily Check-In survey every day."
           }
         }
       }
@@ -383,7 +383,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Social Support Questionnaire"
+            "value" : "Daily Check-In"
           }
         }
       }
