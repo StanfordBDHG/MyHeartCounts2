@@ -30,7 +30,7 @@ jobs:
     permissions:
       contents: read
     with:
-      runsonlabels: '["macOS", "self-hosted"]'
+      runsonlabels: '["macOS"]'
   markdownlinkcheck:
     name: Markdown Link Check
     uses: StanfordBDHG/.github/.github/workflows/markdown-link-check.yml@v2
@@ -53,7 +53,7 @@ jobs:
       contents: read
     with:
       artifactname: MyHeartCounts.xcresult
-      runsonlabels: '["macOS", "self-hosted"]'
+      runsonlabels: '["macOS"]'
       setupfirebaseemulator: true
       customcommand: "firebase emulators:exec 'fastlane test'"
   uploadcoveragereport:
