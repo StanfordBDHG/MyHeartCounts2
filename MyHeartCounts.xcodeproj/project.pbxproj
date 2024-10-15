@@ -57,6 +57,8 @@
 		5680DD3E2AB8CD84004E6D4A /* ContributionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680DD3D2AB8CD84004E6D4A /* ContributionsTest.swift */; };
 		56E708352BB06B7100B08F0A /* SpeziLicense in Frameworks */ = {isa = PBXBuildFile; productRef = 56E708342BB06B7100B08F0A /* SpeziLicense */; };
 		56E7083B2BB06F6F00B08F0A /* SwiftPackageList in Frameworks */ = {isa = PBXBuildFile; productRef = 56E7083A2BB06F6F00B08F0A /* SwiftPackageList */; };
+		630AE0482CBDB27D0053F8C1 /* CoachChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AE0472CBDB27D0053F8C1 /* CoachChatView.swift */; };
+		630AE04B2CBDEA520053F8C1 /* OpenAIAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AE04A2CBDEA520053F8C1 /* OpenAIAPIKey.swift */; };
 		638BA8C82CB9E28F00C58CD0 /* SpeziLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 638BA8C72CB9E28F00C58CD0 /* SpeziLLM */; };
 		638BA8CA2CB9E28F00C58CD0 /* SpeziLLMFog in Frameworks */ = {isa = PBXBuildFile; productRef = 638BA8C92CB9E28F00C58CD0 /* SpeziLLMFog */; };
 		638BA8CC2CB9E28F00C58CD0 /* SpeziLLMLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 638BA8CB2CB9E28F00C58CD0 /* SpeziLLMLocal */; };
@@ -127,6 +129,8 @@
 		2FE5DCAC29EE6107004B9AB4 /* AccountOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountOnboarding.swift; sourceTree = "<group>"; };
 		2FF53D8C2A8729D600042B76 /* MyHeartCountsStandard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHeartCountsStandard.swift; sourceTree = "<group>"; };
 		5680DD3D2AB8CD84004E6D4A /* ContributionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsTest.swift; sourceTree = "<group>"; };
+		630AE0472CBDB27D0053F8C1 /* CoachChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachChatView.swift; sourceTree = "<group>"; };
+		630AE04A2CBDEA520053F8C1 /* OpenAIAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIKey.swift; sourceTree = "<group>"; };
 		653A254D283387FE005D4D48 /* MyHeartCounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHeartCounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A2550283387FE005D4D48 /* MyHeartCounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeartCounts.swift; sourceTree = "<group>"; };
 		653A255428338800005D4D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 				2FE5DC2F29EDD7CA004B9AB4 /* Consent.swift */,
 				2FE5DC3029EDD7CA004B9AB4 /* HealthKitPermissions.swift */,
 				2F65B44D2A3B8B0600A36932 /* NotificationPermissions.swift */,
+				630AE04A2CBDEA520053F8C1 /* OpenAIAPIKey.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -264,6 +269,14 @@
 			path = SharedContext;
 			sourceTree = "<group>";
 		};
+		630AE0462CBD7AF30053F8C1 /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				630AE0472CBDB27D0053F8C1 /* CoachChatView.swift */,
+			);
+			path = Coach;
+			sourceTree = "<group>";
+		};
 		653A2544283387FE005D4D48 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +309,7 @@
 				2F4E23822989D51F0013F3D9 /* MyHeartCountsTestingSetup.swift */,
 				A9720E412ABB68B300872D23 /* Account */,
 				2FE5DC2729EDD38D004B9AB4 /* Contacts */,
+				630AE0462CBD7AF30053F8C1 /* Coach */,
 				A9A3DCC62C75CB8D00FC9B69 /* Firestore */,
 				2FE5DC2829EDD398004B9AB4 /* Onboarding */,
 				2FE5DC2D29EDD792004B9AB4 /* Resources */,
@@ -544,6 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE5DC4129EDD7EE004B9AB4 /* StorageKeys.swift in Sources */,
+				630AE04B2CBDEA520053F8C1 /* OpenAIAPIKey.swift in Sources */,
 				2FE5DCB129EE6107004B9AB4 /* AccountOnboarding.swift in Sources */,
 				2FE5DC3A29EDD7CA004B9AB4 /* Welcome.swift in Sources */,
 				2FE5DC3829EDD7CA004B9AB4 /* InterestingModules.swift in Sources */,
@@ -554,6 +569,7 @@
 				A9A3DCC82C75CBBD00FC9B69 /* FirebaseConfiguration.swift in Sources */,
 				2FE5DC3729EDD7CA004B9AB4 /* OnboardingFlow.swift in Sources */,
 				2F1AC9DF2B4E840E00C24973 /* MyHeartCounts.docc in Sources */,
+				630AE0482CBDB27D0053F8C1 /* CoachChatView.swift in Sources */,
 				2FF53D8D2A8729D600042B76 /* MyHeartCountsStandard.swift in Sources */,
 				A9720E432ABB68CC00872D23 /* AccountSetupHeader.swift in Sources */,
 				2FE5DC4029EDD7EE004B9AB4 /* FeatureFlags.swift in Sources */,

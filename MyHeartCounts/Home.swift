@@ -14,6 +14,7 @@ struct HomeView: View {
     enum Tabs: String {
         case schedule
         case contact
+        case coach
     }
 
 
@@ -27,6 +28,11 @@ struct HomeView: View {
                 .tag(Tabs.schedule)
                 .tabItem {
                     Label("SCHEDULE_TAB_TITLE", systemImage: "list.clipboard")
+                }
+            CoachChatView()
+                .tag(Tabs.coach)
+                .tabItem {
+                    Label("Chat", systemImage: "bubble")
                 }
             Contacts(presentingAccount: $presentingAccount)
                 .tag(Tabs.contact)

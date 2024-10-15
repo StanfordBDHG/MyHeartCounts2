@@ -15,6 +15,9 @@ import SpeziFirebaseAccountStorage
 import SpeziFirebaseStorage
 import SpeziFirestore
 import SpeziHealthKit
+import SpeziLLM
+import SpeziLLMFog
+import SpeziLLMOpenAI
 import SpeziOnboarding
 import SpeziScheduler
 import SwiftUI
@@ -43,6 +46,10 @@ class MyHeartCountsDelegate: SpeziAppDelegate {
                 } else {
                     FirebaseStorageConfiguration()
                 }
+            }
+            
+            LLMRunner {
+                LLMOpenAIPlatform()
             }
 
             if HKHealthStore.isHealthDataAvailable() {

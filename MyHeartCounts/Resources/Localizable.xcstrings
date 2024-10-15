@@ -52,6 +52,9 @@
         }
       }
     },
+    "Chat" : {
+
+    },
     "CLOSE" : {
       "comment" : "MARK: General",
       "localizations" : {
@@ -103,6 +106,9 @@
           }
         }
       }
+    },
+    "Health Coach" : {
+
     },
     "HEALTHKIT_PERMISSIONS_BUTTON" : {
       "localizations" : {
