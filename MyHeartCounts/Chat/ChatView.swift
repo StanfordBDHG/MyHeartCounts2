@@ -1,8 +1,9 @@
 //
-//  CoachChatView.swift
-//  MyHeartCounts
+// This source file is part of the MyHeartCounts based on the Stanford Spezi Template Application project
 //
-//  Created by Vishnu Ravi on 10/14/24.
+// SPDX-FileCopyrightText: 2023 Stanford University
+//
+// SPDX-License-Identifier: MIT
 //
 
 import SpeziChat
@@ -10,7 +11,7 @@ import SpeziLLM
 import SpeziLLMOpenAI
 import SwiftUI
 
-struct CoachChatView: View {
+struct ChatView: View {
     static let schema = LLMOpenAISchema(
         parameters: .init(
             modelType: .gpt4_o,
@@ -21,17 +22,16 @@ struct CoachChatView: View {
     )
     
     @LLMSessionProvider(schema: Self.schema) var llm: LLMOpenAISession
-    @State var showOnboarding = false
     @State var muted = true
     
     var body: some View {
         LLMChatView(session: $llm)
             .speak(llm.context.chat, muted: muted)
             .speechToolbarButton(muted: $muted)
-            .navigationTitle("Health Coach")
+            .navigationTitle("CHAT_VIEW_TITLE")
     }
 }
 
 #Preview {
-    CoachChatView()
+    ChatView()
 }
