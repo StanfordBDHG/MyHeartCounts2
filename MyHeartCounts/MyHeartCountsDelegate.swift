@@ -16,7 +16,6 @@ import SpeziFirebaseStorage
 import SpeziFirestore
 import SpeziHealthKit
 import SpeziLLM
-import SpeziLLMFog
 import SpeziLLMOpenAI
 import SpeziOnboarding
 import SpeziScheduler

@@ -63,7 +63,14 @@
       }
     },
     "CHAT_VIEW_TITLE" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat"
+          }
+        }
+      }
     },
     "CLOSE" : {
       "comment" : "MARK: General",
