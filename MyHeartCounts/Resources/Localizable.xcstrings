@@ -52,6 +52,26 @@
         }
       }
     },
+    "CHAT_TAB_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat"
+          }
+        }
+      }
+    },
+    "CHAT_VIEW_TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat"
+          }
+        }
+      }
+    },
     "CLOSE" : {
       "comment" : "MARK: General",
       "localizations" : {
